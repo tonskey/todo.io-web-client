@@ -1,0 +1,2 @@
+# Task.io
+GTasks is a simple and efficient todo / task management app with mobile synchronization. You can customize your to do list, set reminder, send tasks to your friends, family members or colleagues. With it, you will never miss a task and focus on what really matters to boost productivity. 
