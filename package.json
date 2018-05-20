@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "description": "lite task manager",
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "firebase": "^5.0.3",
+    "firebaseui": "^3.0.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "stylus": "^0.54.5"
   },
   "repository": {
     "type": "git",
@@ -22,5 +26,12 @@
   "bugs": {
     "url": "https://github.com/antonVl/todo.io-web-client/issues"
   },
-  "homepage": "https://github.com/antonVl/todo.io-web-client#readme"
+  "homepage": "https://github.com/antonVl/todo.io-web-client#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.5.0",
+    "autoprefixer-stylus": "^0.14.0",
+    "poststylus": "^1.0.0",
+    "react-app-rewired": "^1.5.2",
+    "stylus-loader": "^3.0.2"
+  }
 }
